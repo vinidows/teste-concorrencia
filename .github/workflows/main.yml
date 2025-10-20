@@ -9,5 +9,5 @@ jobs:
       -  name: job teste
          run: |
            sleep 120;
-           echo "Action executada job 01"
+           echo "Action executada job 001"
   
