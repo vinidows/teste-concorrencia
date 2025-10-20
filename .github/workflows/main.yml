@@ -3,6 +3,7 @@ run-name: Workflow Concorrencia ${{ github.run_number }}
 on: 
   workflow_dispatch:
 concurrency: pipeline
+  cancel-in-progress: true
 jobs:
   exemplo-fluxo-execucao-01:
     runs-on: ubuntu-latest
